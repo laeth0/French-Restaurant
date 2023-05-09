@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100&display=swap');
+.container{
+    margin: auto;
+    width: 80%;
+}
+
+.clrfix{
+    clear: both;
+}
+
+/* ================================================================ */
+.header{
+    background-image: url(../img/3.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar ul{
+    list-style-type: none;   
+}
+
+.navbar li{
+    float: right;
+    margin: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33.48px;
+}
+.navbar img{
+    width: 130px;
+    height: 60px;
+    float: left;
+}
+
+.header-body{
+    text-align: center;
+    line-height: 10px;
+}
+.header-body h1{
+    font-family: 'Alegreya', serif;
+    font-size: 76px;
+    font-weight: 400;
+    line-height: 91.2px;
+    color: rgb(255, 255, 255);
+}
+.header-body p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    line-height:  74.4px;
+    color: rgba(255, 255, 255, 0.92);
+    margin: 20px 0px;
+}
+.header-body a{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 23.4px;
+    border: 2px solid transparent;
+    text-decoration: none;
+    padding: 15px 28px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.btn-learnmore:link{
+    background-color: #c1ab84;
+    color: #FFF;
+    margin-right: 5px;
+}
+.btn-learnmore:hover{
+    color: black;
+    background-color: white;
+}
+.btn-book:link{
+    margin-left: 5px;
+    background-color: white;
+    color: black;
+}
+.btn-book:hover{
+    opacity: .9;
+}
+
+/* ================================================================ */
+
+
+.about{
+    padding-top: 80px;
+}
+
+.about-img{
+    float: left;
+    width: 50%;
+}
+
+.about-info{
+    float: left;
+    width: 50%;
+    margin-top: 140px;
+}
+
+.about-info h2{
+    font-family: 'Alegreya', serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height:  49.68px;
+    color: rgb(37, 48, 72);
+    margin-bottom: 10px;
+}
+.about-info h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    font-weight: 400;
+    line-height:  38.64px;
+    color:  rgb(193, 171, 132);
+    margin-bottom: 10px;
+
+}
+
+.about-info p{
+    font-family: 'Alegreya', serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33.48px;
+    color: rgb(104, 104, 104);
+    margin-bottom: 30px;
+}
+
+.about-info ul{
+    list-style-type: none;
+}
+
+.about-info li i{
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 25px;
+    text-align: center ;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #c1ab84 !important;
+    margin-bottom: 20px ;
+}
+
+.about-info li span{
+    font-family: 'Alegreya', serif;
+    font-size: 18px;
+    color: rgb(104, 104, 104);
+    margin-left: 20px;
+
+}
+
+/* ================================================================ */
+
+
+
+.reviewers{
+    padding-top: 40px;
+    background-color: #f8f8f8;
+}
+
+.reviewers-info{
+    float: left;
+    width: 50%;
+}
+
+.reviewers-info h2{
+    font-family: 'Alegreya', serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49.68px;
+    color: rgb(37, 48, 72);
+    margin: 10px;
+}
+
+.reviewers-info h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38.64px;
+    color: rgb(193, 171, 132);
+    margin: 20px;
+
+}
+
+.reviewers-info p{
+    font-family: 'Alegreya', serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33.48px;
+    color: rgb(104, 104, 104);
+    margin-bottom: 30px;
+}
+.reviewers-info ul{
+list-style-type:none;
+}
+
+.reviewers-info li span{
+    font-family: 'Alegreya', serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(104, 104, 104);
+
+}
+
+.reviewers-info li i{
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    color: rgb(193, 171, 132);
+}
+
+
+
+
